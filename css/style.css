@@ -1,6 +1,7 @@
 body{
-  background-image: radial-gradient(black 15%, rgb(100, 13, 100) 60%, white);
-    
+  background-image: linear-gradient(to right, black 15%, rgb(100, 13, 100) 60%, white);
+  background-size: cover;
+  
 }
 
 .card{
