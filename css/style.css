@@ -1,9 +1,13 @@
 body{
-    background-color: black;
+  background-image: radial-gradient(black 15%, rgb(100, 13, 100) 60%, white);
+    
 }
 
 .card{
     align-content: center;
+    margin-top: auto;
+    border: 2px solid rgb(60, 2, 99);
+    border-radius: 8px;
 }
 
 .modal {
@@ -17,7 +21,7 @@ body{
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color: rgba(0, 0, 0, 0.795); /*Black w/ opacity*/
   }
   .modal-content {
     margin: auto;
@@ -26,7 +30,7 @@ body{
     max-width: 800px;
   }
 
-  #caption {
+   #caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -38,12 +42,12 @@ body{
   }
   
   /* Add Animation */
-  .modal-content, #caption {  
+   .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
+  }  
 
   #myImg {
     border-radius: 5px;
@@ -51,5 +55,21 @@ body{
     transition: 0.3s;
   }
   
-  #myImg:hover {opacity: 0.7;}
+  #myImg:hover {opacity: 0.7;} 
 
+  .container{
+    padding: 20%;
+  }
+
+.btn{
+  margin: 2%;
+}
+
+h5{
+  margin: 3%;
+}
+
+span{
+  color: rgb(187, 15, 218);
+  size: 650px;
+}
